@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.side-component {
+  background-color: #080325;
+  width: 300px;
+  height: 998px;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px 18px 32px;
+}
+.header {
+  padding-top: 30px;
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+.ringku {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  height: 53.439178466796875px;
+  width: 153px;
+  border-radius: 0px;
+  padding: 12px 24px 12px 24px;
+}
+.ringku-icon {
+  width: 29px;
+  height: 29px;
+}
+.ringku-icon img {
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+}
+.ringku-write {
+  height: 29px;
+  width: 72px;
+  color: #fff;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+}
+.navbar-icon {
+  width: 40px;
+  height: 40px;
+  margin-top: 5px;
+}
+.navbar-icon img {
+  width: 100%;
+  height: 100%;
+  background-color: blue;
+  border-radius: 50%;
+}
+.component {
+  width: 264px;
+  height: 72px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 18px;
+}
+.component:hover {
+  background-color: #31295f;
+  border-radius: 10px;
+}
+.chat-img {
+  width: 25.6px;
+  height: 22.4px;
+}
+.chat-img img {
+  width: 100%;
+  height: 100%;
+  border-radius: 45px;
+}
+.title {
+  width: 180px;
+  height: 20px;
+  color: #fff;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+}
+.wallet {
+  width: 70%;
+  height: 104px;
+  border: 1px solid black;
+}
